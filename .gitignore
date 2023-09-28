@@ -1,6 +1,6 @@
 .terraform/
 terraform.tfvars
-.terraform.lock.hcl
+*.lock.hcl
 terraform.tfstate
 terraform.tfstate.backup
 versions.tf

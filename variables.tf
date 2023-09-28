@@ -10,5 +10,23 @@ variable "secret_key" {
 
 variable "region" {
   type    = string
-  default = "eu-north-1"
+  default = ""
+}
+
+variable "ami_id" {
+  type    = string
+  default = ""
+
+}
+
+variable "instance_type" {
+  type    = string
+  default = "t3.micro"
+
+}
+
+variable "key_name" {
+  type    = string
+  default = ""
+
 }
