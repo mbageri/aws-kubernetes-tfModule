@@ -16,7 +16,7 @@ variable "key_name" {
 
 }
 
-variable "instance_name" {
-  default = "machine"
+variable "env_name" {
+  default = ["build","dev","stage","prod"]
 
 }
