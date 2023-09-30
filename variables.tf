@@ -1,6 +1,6 @@
 variable "AMI_ID" {
   type    = string
-  default = "dfdfami-0989fb15ce71ba39e"
+  default = "ami-0989fb15ce71ba39e"
 
 }
 
