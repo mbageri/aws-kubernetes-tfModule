@@ -1,22 +1,22 @@
-variable "ami_id" {
+variable "AMI_ID" {
   type    = string
   default = "ami-0989fb15ce71ba39e"
 
 }
 
-variable "instance_type" {
+variable "INSTANCE_TYPE" {
   type    = string
   default = "t3.micro"
 
 }
 
-variable "key_name" {
+variable "KEY_NAME" {
   type    = string
   default = "first-aws"
 
 }
 
-variable "env_name" {
+variable "ENV_NAME" {
   default = ["build","dev","stage","prod"]
 
 }

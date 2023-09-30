@@ -1,9 +1,9 @@
 resource "aws_instance" "web-server" {
-  ami           = var.ami_id
-  instance_type = var.instance_type
-  key_name      = var.key_name
+  ami           = var.AMI_ID
+  instance_type = var.INSTANCE_TYPE
+  key_name      = var.KEY_NAME
   count = 4
   tags = {
-    Name = "server-${var.env_name[count.index]}"
+    Name = "server-${var.ENV_NAME[count.index]}"
   }
 }
