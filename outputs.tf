@@ -3,5 +3,5 @@ output "public_dns" {
 }
 
 output "public-ip" {
-  value = aws_instance.web-server[*].public_ip
+  value = join(",", aws_instance.web-server[*].public_ip)
 }
