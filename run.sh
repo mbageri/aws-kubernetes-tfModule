@@ -19,4 +19,3 @@
 ./git.sh
 ./git.sh
 ./git.sh
-./git.sh
