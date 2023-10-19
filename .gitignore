@@ -4,3 +4,9 @@ terraform.tfvars
 terraform.tfstate
 terraform.tfstate.backup
 versions.tf
+hosts
+keystone_rc.sh
+*.log
+/log[s]
+*.retry
+kube-tfmodule/ansible_inventory
