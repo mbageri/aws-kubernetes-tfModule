@@ -1,4 +1,4 @@
-AWS-kubernetes-tfModule
+kubernetes-cluster-tfModule
 =============
 
 This terraform module automates the creation of a Kubernetes cluster on aws with Ansible.
